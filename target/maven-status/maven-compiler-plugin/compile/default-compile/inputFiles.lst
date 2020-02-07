@@ -1,0 +1,11 @@
+/Users/i367759/workspace/personal-learning/udemy/testing-spring-boot/sfg-restdocs-example/src/main/java/guru/springframework/sfgrestdocsexample/repositories/BeerRepository.java
+/Users/i367759/workspace/personal-learning/udemy/testing-spring-boot/sfg-restdocs-example/src/main/java/guru/springframework/sfgrestdocsexample/bootstrap/BeerLoader.java
+/Users/i367759/workspace/personal-learning/udemy/testing-spring-boot/sfg-restdocs-example/src/main/java/guru/springframework/sfgrestdocsexample/web/model/BeerPagedList.java
+/Users/i367759/workspace/personal-learning/udemy/testing-spring-boot/sfg-restdocs-example/src/main/java/guru/springframework/sfgrestdocsexample/web/mappers/DateMapper.java
+/Users/i367759/workspace/personal-learning/udemy/testing-spring-boot/sfg-restdocs-example/src/main/java/guru/springframework/sfgrestdocsexample/web/model/BeerStyleEnum.java
+/Users/i367759/workspace/personal-learning/udemy/testing-spring-boot/sfg-restdocs-example/src/main/java/guru/springframework/sfgrestdocsexample/web/controller/BeerController.java
+/Users/i367759/workspace/personal-learning/udemy/testing-spring-boot/sfg-restdocs-example/src/main/java/guru/springframework/sfgrestdocsexample/domain/Beer.java
+/Users/i367759/workspace/personal-learning/udemy/testing-spring-boot/sfg-restdocs-example/src/main/java/guru/springframework/sfgrestdocsexample/web/controller/MvcExceptionHandler.java
+/Users/i367759/workspace/personal-learning/udemy/testing-spring-boot/sfg-restdocs-example/src/main/java/guru/springframework/sfgrestdocsexample/SfgRestdocsExampleApplication.java
+/Users/i367759/workspace/personal-learning/udemy/testing-spring-boot/sfg-restdocs-example/src/main/java/guru/springframework/sfgrestdocsexample/web/model/BeerDto.java
+/Users/i367759/workspace/personal-learning/udemy/testing-spring-boot/sfg-restdocs-example/src/main/java/guru/springframework/sfgrestdocsexample/web/mappers/BeerMapper.java

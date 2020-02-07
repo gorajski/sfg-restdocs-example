@@ -1,0 +1,14 @@
+guru/springframework/sfgrestdocsexample/web/mappers/DateMapper.class
+guru/springframework/sfgrestdocsexample/web/model/BeerDto$BeerDtoBuilder.class
+guru/springframework/sfgrestdocsexample/web/controller/BeerController.class
+guru/springframework/sfgrestdocsexample/web/model/BeerStyleEnum.class
+guru/springframework/sfgrestdocsexample/web/model/BeerDto.class
+guru/springframework/sfgrestdocsexample/bootstrap/BeerLoader.class
+guru/springframework/sfgrestdocsexample/web/model/BeerPagedList.class
+guru/springframework/sfgrestdocsexample/web/mappers/BeerMapper.class
+guru/springframework/sfgrestdocsexample/web/controller/MvcExceptionHandler.class
+guru/springframework/sfgrestdocsexample/repositories/BeerRepository.class
+guru/springframework/sfgrestdocsexample/domain/Beer.class
+guru/springframework/sfgrestdocsexample/domain/Beer$BeerBuilder.class
+guru/springframework/sfgrestdocsexample/web/mappers/BeerMapperImpl.class
+guru/springframework/sfgrestdocsexample/SfgRestdocsExampleApplication.class
