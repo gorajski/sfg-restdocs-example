@@ -37,7 +37,8 @@ import static org.springframework.restdocs.snippet.Attributes.key;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 @ExtendWith(RestDocumentationExtension.class)
-@AutoConfigureRestDocs
+@AutoConfigureRestDocs(uriScheme = "https", uriHost = "dev.springframework.guru", uriPort = 443)
+//If uriScheme http/https aligns with uriPort 80/443, then RestDocs will automatically hide the port number.
 @WebMvcTest(BeerController.class)
 @ComponentScan(basePackages = "guru.springframework.sfgrestdocsexample.web.mappers")
 class BeerControllerTest {
@@ -59,7 +60,7 @@ class BeerControllerTest {
                 .param("isCold", "yes")
                 .accept(MediaType.APPLICATION_JSON))
                 .andExpect(status().isOk())
-                .andDo(document("api/v1/beer",
+                .andDo(document("api/v1/beer-get",
                         pathParameters(
                                 parameterWithName("beerId").description("UUID of desired beer to get.")
                         ),
@@ -91,7 +92,7 @@ class BeerControllerTest {
                 .contentType(MediaType.APPLICATION_JSON)
                 .content(beerDtoJson))
                 .andExpect(status().isCreated())
-        .andDo(document("v1/beer",
+        .andDo(document("api/v1/beer-post",
                 requestFields(
         //..call on the ConstrainedFields withPath method here.
                         fields.withPath("id").ignored(),
@@ -129,7 +130,7 @@ class BeerControllerTest {
 
 
 
-    // This is documentation from the makers of Spring
+    // This is documentation from the makers of Spring...supposedly from the HATEOAS part of their docs.
     // We're using this to hook into the |{{constraints}} line of our custom request-fields.snippet.
     // This will let the constraints (e.g. @Positive, @Size, etc) to be documented automatically.
     private static class ConstrainedFields {

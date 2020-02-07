@@ -1,4 +1,0 @@
-[source,options="nowrap"]
-----
-{"id":null,"version":null,"createdDate":null,"lastModifiedDate":null,"beerName":"Nice Ale","beerStyle":"ALE","upc":123123123123,"price":9.99,"quantityOnHand":null}
-----
